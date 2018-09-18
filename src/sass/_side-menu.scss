@@ -4,4 +4,17 @@
     color: #fff;
     padding: 20px;
   }
+  &__content{
+    a{
+      text-decoration: none;
+      color: #8c8c8c;
+    }
+    li{
+      padding: 20px 0 25px 20px;
+      background-color: #f8f8f8;
+    }
+    li:nth-child(2n){
+      background: #f4f3f3;
+    }
+  }
 }
