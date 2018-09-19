@@ -1,0 +1,31 @@
+.side-menu{
+  &__title{
+    background-color: #740311;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+  }
+  &__content{
+    a{
+      text-decoration: none;
+      color: #8c8c8c;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid #8c8c8c;
+        border-right: 2px solid #8c8c8c;
+        transform: rotate(135deg);
+        left: 260px;
+      }
+    }
+    li{
+      padding: 20px 0 25px 20px;
+      background-color: #f8f8f8;
+    }
+    li:nth-child(2n){
+      background: #f4f3f3;
+    }
+  }
+}
