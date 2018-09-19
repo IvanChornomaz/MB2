@@ -5,10 +5,14 @@
     color: #fff;
     padding: 20px;
   }
-  &__content{
+  &__item{
     a{
       text-decoration: none;
       color: #8c8c8c;
+      flex: 1 auto;
+      }
+    span{
+      width: 50px;
       &:after{
         content: '';
         position: absolute;
@@ -17,12 +21,12 @@
         border-top: 2px solid #8c8c8c;
         border-right: 2px solid #8c8c8c;
         transform: rotate(135deg);
-        left: 260px;
+        }
       }
-    }
     li{
       padding: 20px 0 25px 20px;
       background-color: #f8f8f8;
+      display: flex;
     }
     li:nth-child(2n){
       background: #f4f3f3;
