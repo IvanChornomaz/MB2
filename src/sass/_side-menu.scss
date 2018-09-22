@@ -10,9 +10,11 @@
       text-decoration: none;
       color: #8c8c8c;
       flex: 1 auto;
+      padding: 20px;
       }
     span{
       width: 50px;
+      padding-top: 20px;
       &:after{
         content: '';
         position: absolute;
@@ -24,7 +26,6 @@
         }
       }
     li{
-      padding: 20px 0 25px 20px;
       background-color: #f8f8f8;
       display: flex;
     }
