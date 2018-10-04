@@ -1,0 +1,87 @@
+-
+  var article = [
+    {
+      img : "img/colorcards.png",
+      text : 'ЦИФРОВАЯ ПЕЧАТЬ'
+    },
+    {
+      img : "img/offprint.png",
+      text: 'ОФСЕТНАЯ ПЕЧАТЬ'
+    },
+    {
+      img : "img/finishproc.png",
+      text : 'ФИНИШНАЯ ОБРАБОТКА'
+    },
+    {
+      img : "img/design.png",
+      text : 'ДИЗАЙН, ВЕРСТКА,  КОРРЕКТУРА, ПЕРЕВОД'
+    },
+    {
+      img : "img/catalog.png",
+      text : 'КАТАЛОГ ВЫСТАВКИ'
+    },
+    {
+      img : "img/barcode.png",
+      text : 'ПЕРЕМЕННЫЕ ДАННЫЕ,  ШТРИХ-КОДИРОВАНИЕ'
+    }
+  ]
+
+-
+  var articleCatalog = [
+    {
+      img : "img/toyota.png",
+      text : 'листовая продукция'
+    },
+    {
+      img : "img/foodmash.png",
+      text: 'Фотоальбомы'
+    },
+    {
+      img : "img/flower.png",
+      text : 'Буклеты'
+    },
+    {
+      img : "img/pamphlet.png",
+      text : 'Брошюры'
+    },
+    {
+      img : "img/card.png",
+      text : 'Визитки'
+    },
+    {
+      img : "img/calendar.png",
+      text : 'Календари'
+    },
+    {
+      img : "img/envelope.png",
+      text : 'Конверты'
+    },
+    {
+      img : "img/folder.png",
+      text : 'Папки'
+    },
+    {
+      img : "img/sticker.png",
+      text : 'Наклейки, этикетки'
+    },
+    {
+      img : "img/copy.png",
+      text : 'Самокопиры'
+    }
+  ]
+
+each item in article
+  .article__col
+    .article
+      a(href="#")
+        .article__img
+          img(src=item.img)
+        .article__text=item.text 
+
+each item in articleCatalog
+  .articleCatalog__col
+    .articleCatalog
+      a(href="#")
+        .articleCatalog__img
+          img(src=item.img)
+        .articleCatalog__text=item.text 
