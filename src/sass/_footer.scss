@@ -1,0 +1,15 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background: #740311;
+  padding: 25px;
+  &__menu li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+  }
+  &__menu a{
+    text-decoration: none;
+    color: #af5b5b;
+  }
+}
